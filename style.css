@@ -101,7 +101,7 @@ header img {
 }
 
 
-#main .carousel-inner img {
+#main .carousel-inner video {
     height: 100vh;
     object-fit: cover;
     filter: grayscale(70%);
@@ -124,19 +124,12 @@ header img {
     width: 100%;
     font-family: 'Syne Mono', monospace;
     }
-
-
-
-main {
-    display: inline-block;
-    margin: 2px;
-    border-radius: 6px;
+#main .info{
     
-    width: 100%;
-    padding: 25px;
-    background-color: var(--grey);
-    border-radius: 4px;
-    
+        overflow: hidden;
+        word-wrap: break-word;
+
+      
 }
 h3 {
     position: relative;
