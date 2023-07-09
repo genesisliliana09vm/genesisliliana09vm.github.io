@@ -1,0 +1,184 @@
+
+
+body {
+    
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+:root {
+    --bitcoin-orange: #105057;
+    --soft-orange:#898C8b;
+    --sof-blue: #FF81D0;
+    --warm-black: #400036;
+    --black: #919151;
+    --grey: #f6e2f7;
+    --off-white: #fcdaf4;
+    --just-white: #070707; 
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    font-size: 130%; 
+   
+}
+
+
+ header {
+    padding-top: 15px;
+	position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    
+    height: 400px;
+    text-align: center;
+    color: var(--grey);
+    background: linear-gradient(207.8deg, #272727 20%,  #FF81D0 60%, #898C8b 100%);
+    
+    border-radius: 2px;
+    -webkit-animation: kenburns-top 5s ease-out both;
+    animation: kenburns-top 5s ease-out both;
+}
+#header {
+    background-color: #343a40;
+  
+    width: 100%;
+}
+#header a {
+    color: #6d4567;
+    font-size: 14px;
+    height: 37px;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+header h1 {
+    margin-top: 1%;
+    font-family: 'Syne Mono', monospace;
+}
+header h2{
+    font-family: 'Share Tech Mono', monospace;
+}
+header img {
+    margin-top: 5%;
+}
+.header--title img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.header--title-información {
+    display: flex;
+    
+    
+    
+}
+
+.icono-telefono {
+  height: 25px;
+}
+.icono-persona {
+    height: 25px;
+}
+.icono-casa {
+    height: 25px;
+}
+.icono-email {
+    height: 25px;
+}
+.icono-instagram {
+    height: 25px;
+}
+
+
+#main .carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+    display: block;
+    height: 530px;
+}
+#carousel {
+    position: relative;
+
+}
+#carousel .overlay {
+    z-index: 1;
+    position: relative;
+    top: 100px; 
+    bottom: 0;
+    left: 0;
+    right: 0; /*top arriba, bottom-abajo, left-hizquierda, right-derecha*/ 
+    background-color: rgba(0, 0, 0, 0.5); /*colo negro*/
+    color: white; /* letra blaca*/
+    width: 100%;
+    font-family: 'Syne Mono', monospace;
+    }
+
+
+
+main {
+    display: inline-block;
+    margin: 2px;
+    border-radius: 6px;
+    
+    width: 100%;
+    padding: 25px;
+    background-color: var(--grey);
+    border-radius: 4px;
+    
+}
+h3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 20px;
+    padding: 65px;
+    font-size: 1,2rem;
+    margin-block-start: px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    color: var(--warm-black);
+    font-family: 'Share Tech Mono', monospace;
+}
+.desarrollo li {
+    font-family: 'Share Tech Mono', monospace;
+}
+  
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   
+    min-width: 320px;
+    height: 69px;
+    padding: 8px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 5px;
+    color: var(--grey);
+    background: linear-gradient(207.8deg, #272727 20%,  #FF81D0 60%, #898C8b 100%);
+    font-family: 'Share Tech Mono', monospace;
+}
+      
+
+
+
